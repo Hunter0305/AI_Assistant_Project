@@ -1,0 +1,56 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# AI Customer Service Assistant — Requirements
+# Python 3.9+
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Core LangChain (modernized from training project's langchain==0.0.339) ────
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-google-genai>=1.0.0
+langchain-huggingface>=0.0.3
+
+# ── Google Gemini (replaces deprecated GooglePalm) ────────────────────────────
+google-generativeai>=0.5.0
+
+# ── Vector database (same as training project) ────────────────────────────────
+faiss-cpu>=1.7.4
+
+# ── Embeddings (replaces hkunlp/instructor-large — lighter, CPU-compatible) ──
+sentence-transformers>=2.7.0
+
+# ── Web framework ─────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Environment variables ─────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Task 1: Sentiment Analysis ────────────────────────────────────────────────
+vaderSentiment>=3.3.2
+textblob>=0.18.0
+
+# ── Task 2: Medical entities ──────────────────────────────────────────────────
+# spaCy (optional but recommended for enhanced NER)
+# Run: python -m spacy download en_core_web_sm
+spacy>=3.7.0
+
+# ── Task 3: Knowledge Base (PDF support) ─────────────────────────────────────
+pypdf>=3.17.0
+
+# ── Task 4: Research Assistant ────────────────────────────────────────────────
+arxiv>=2.1.0
+plotly>=5.18.0
+pandas>=2.0.0
+
+# ── Task 5: Multimodal (PIL for image handling) ───────────────────────────────
+Pillow>=10.0.0
+
+# ── Task 6: Multilingual ─────────────────────────────────────────────────────
+langdetect>=1.0.9
+deep-translator>=1.11.4
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+requests>=2.31.0
+
+# ── Testing ───────────────────────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0

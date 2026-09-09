@@ -1,0 +1,52 @@
+# ── Environment ──────────────────────────────────────────────────────────────
+.env
+*.env.local
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── FAISS indexes (large binary files) ───────────────────────────────────────
+faiss_indexes/
+
+# ── Cached datasets (large, regenerated on first run) ─────────────────────────
+data/medical/
+data/research/
+data/knowledge_inbox/.processed_registry.json
+
+# ── HuggingFace cache ─────────────────────────────────────────────────────────
+.cache/
+~/.cache/huggingface/
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temporary files ───────────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp

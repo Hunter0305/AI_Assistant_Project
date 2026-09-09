@@ -1,0 +1,5 @@
+﻿Q1: I have never done programming in my life. Can I take this course?
+Q2: Why should I trust Nullclass?
+Q3: Is there any prerequisite for taking this bootcamp ?
+Q4: What datasets are used in this bootcamp? Is it some toy datasets or
+ something that mimics a real-world business problem?
