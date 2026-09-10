@@ -7,7 +7,7 @@ import logging
 from typing import List, Dict, Optional, Union
 from pathlib import Path
 
-from langchain.schema import Document
+from langchain_core.documents import Document
 from src.knowledge.ingestion import ingest_text, ingest_file, ingest_url, get_ingestion_metadata
 from src.retrieval.vector_store import append_to_index, index_exists
 from src.core.config import KNOWLEDGE_INDEX
